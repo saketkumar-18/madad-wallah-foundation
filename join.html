@@ -111,8 +111,16 @@
             <input type="email" id="f-email" name="email" required placeholder="you@example.com">
           </div>
           <div class="form-group">
-            <label for="f-dob">Date of Birth</label>
-            <input type="date" id="f-dob" name="dob">
+            <label for="f-dob">Date of Birth <span class="req">*</span></label>
+            <input type="date" id="f-dob" name="dob" required>
+          </div>
+          <div class="form-group">
+            <label for="f-father">Father's Name <span class="req">*</span></label>
+            <input type="text" id="f-father" name="father_name" required placeholder="Your father's full name">
+          </div>
+          <div class="form-group">
+            <label for="f-anniversary">Marriage Anniversary Date</label>
+            <input type="date" id="f-anniversary" name="marriage_anniversary">
           </div>
           <div class="form-group">
             <label for="f-state">State <span class="req">*</span></label>
