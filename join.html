@@ -16,6 +16,8 @@
     <div class="reg-info">
       <span>📋 CIN: U88900BR2026NPL087297</span>
       <span>🇮🇳 NITI Aayog DARPAN ID: BR/2026/1184067</span>
+      <span>🧾 12A No.: 12A-AAVCM3586HE20261</span>
+      <span>🧾 80G No.: 80G-AAVCM3586HF20261</span>
       <span>✉️ madadwallahfoundation@gmail.com</span>
     </div>
     <div class="socials">
@@ -83,7 +85,7 @@
     <div class="section-head">
       <span class="eyebrow">Registration Form</span>
       <h2>Register Your Interest</h2>
-      <p>Fill in your details below. In production this form is powered by Google Forms and responses flow directly into our registration sheet.</p>
+      <p>Fill in your details below. In production this form is powered by Google Forms and responses flow directly into our registration sheet. For any query or help with registration, call us at <a href="tel:+917004460314" style="font-weight:700;">7004460314</a>.</p>
     </div>
 
     <!-- GOOGLE FORM EMBED (production): replace the iframe src below with your
@@ -111,8 +113,27 @@
             <input type="email" id="f-email" name="email" required placeholder="you@example.com">
           </div>
           <div class="form-group">
-            <label for="f-dob">Date of Birth <span class="req">*</span></label>
-            <input type="date" id="f-dob" name="dob" required>
+            <label for="f-dob">Birthdate Celebration Date <span class="req">*</span></label>
+            <input type="date" id="f-dob" name="birthdate_celebration_date" required>
+          </div>
+          <div class="form-group">
+            <label for="f-blood">Blood Group <span class="req">*</span></label>
+            <select id="f-blood" name="blood_group" required>
+              <option value="">— Select blood group —</option>
+              <option value="A+">A+</option>
+              <option value="A-">A-</option>
+              <option value="B+">B+</option>
+              <option value="B-">B-</option>
+              <option value="O+">O+</option>
+              <option value="O-">O-</option>
+              <option value="AB+">AB+</option>
+              <option value="AB-">AB-</option>
+              <option value="Not Known">Not Known</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="f-idmark">Identification Mark on Body <span class="req">*</span></label>
+            <input type="text" id="f-idmark" name="identification_mark" required placeholder="e.g. mole on right cheek, scar on left eyebrow">
           </div>
           <div class="form-group">
             <label for="f-father">Father's Name <span class="req">*</span></label>
